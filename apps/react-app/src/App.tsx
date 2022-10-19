@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App(): React.ReactElement {
+  const a = 1;
+
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +14,7 @@ function App(): React.ReactElement {
           target="_blank"
           rel="noopener noreferrer"
         >
+          {a}
           React App living in a Rush monorepo
         </a>
       </header>
