@@ -3,6 +3,7 @@ import './App.css';
 
 function App(): React.ReactElement {
   const a = 1;
+  const b = 2;
 
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App(): React.ReactElement {
           rel="noopener noreferrer"
         >
           {a}
+          {b}
           React App living in a Rush monorepo
         </a>
       </header>
