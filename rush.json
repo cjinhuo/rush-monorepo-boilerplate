@@ -11,7 +11,11 @@
     "ignoredNpmScopes": ["@types"]
   },
   "gitPolicy": {},
-  "repository": {},
+  "repository": {
+    "url": "https://github.com/cjinhuo/rush-monorepo-boilerplate.git",
+    "defaultBranch": "master",
+    "defaultRemote": "origin"
+  },
   "eventHooks": {
     "preRushInstall": [],
     "postRushInstall": [],
